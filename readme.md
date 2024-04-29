@@ -12,7 +12,7 @@ Neste exemplo, aplicamos o Princípio da Segregação de Interface (ISP) dividin
 
 Isso evita que a classe `Photocopier` tenha dependências desnecessárias, já que ela só precisa implementar as interfaces relevantes para suas funcionalidades. Dessa forma, estamos evitando que a classe `Photocopier` dependa de métodos que não são usados por ela, seguindo o ISP.
 
-> Exemplo: [ISP](h)
+> Exemplo: [ISP](https://github.com/heabron/engsoft/blob/main/exemplo_isp.java)
 
 ---
 

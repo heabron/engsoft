@@ -27,7 +27,7 @@ Neste exemplo, aplicamos o princípio "Prefira Composição a Herança" ao utili
 
 A classe `Car` possui um objeto `Engine` como parte de sua estrutura interna. Isso promove um design mais flexível, pois podemos alterar o comportamento do motor sem afetar diretamente a classe `Car`. Além disso, evita problemas associados à herança, como acoplamento rígido e hierarquias profundas, proporcionando uma relação mais clara e flexível entre as classes.
 
-> Exemplo: [Herança](h)
+> Exemplo: [Herança](https://github.com/heabron/engsoft/blob/main/exemplo_heranca.java)
 
 ---
 
@@ -42,7 +42,7 @@ Neste exemplo, aplicamos o Princípio Aberto-Fechado (OCP) criando uma hierarqui
 
 Dessa forma, estamos mantendo a classe `Shape` fechada para modificação, pois não precisamos modificar seu código-fonte original para adicionar novas formas geométricas. Ao mesmo tempo, estamos abertos para estender seu comportamento, permitindo a adição de novas formas sem alterar o código existente.
 
-> Exemplo: [OCP](h)
+> Exemplo: [OCP](https://github.com/heabron/engsoft/blob/main/exemplo_ocp.java)
 
 ---
 
@@ -57,4 +57,4 @@ Neste exemplo, aplicamos o Princípio da Substituição de Liskov (LSP) ao garan
 
 Ambas as subclasses `Duck` e `Penguin` substituem o método `makeSound()` da classe base `Bird`, retornando sons diferentes (`Quack` e `Honk`, respectivamente). No entanto, quando chamamos a função `makeBirdSound()`, passamos objetos de `Duck` e `Penguin` como argumentos, e o comportamento esperado é obtido, demonstrando que essas subclasses podem ser usadas de forma intercambiável com a classe base `Bird`, seguindo o LSP.
 
-> Exemplo: [LSP](h)
+> Exemplo: [LSP](https://github.com/heabron/engsoft/blob/main/exemplo_liskov.java)
